@@ -1,5 +1,5 @@
 # General
-The goal of this project is to transform a ESP8266 based smart switch from cloud based firmware to a MQTT supporting firmware, that will allow local controlling. Main reasons for this is to be able to integrate it into existing open source Home Assistant platform . 
+The goal of this project is to transform a ESP8266 based smart switch from cloud based firmware to MQTT supporting firmware, that will allow local control. Main reasons for this is to be able to integrate it into an existing open source Home Assistant platform . 
 
 WARNING! Disassembling the smart switch will probably void the warranty and never keep it connected to live voltage without enclosure. 
 
@@ -10,6 +10,7 @@ WARNING! Disassembling the smart switch will probably void the warranty and neve
 ## Software
 - Visual Studio Code
 - PlatformIO extension for VS Code
+- CH340 drivers
 # Preparations for flashing
 1. Clone newest version of Tasmota from official repository: https://github.com/arendst/Sonoff-Tasmota
 2. Start PlatformIO in VS Code and click open project. Select Tasmota folder, which was downloaded in previous step
@@ -21,7 +22,7 @@ WARNING! Disassembling the smart switch will probably void the warranty and neve
 ```
 ## Hardware preparation
 1. Disassemble the smart switch
-2. I decided not to solder and just press the pins against 4 PCB contacts.
+2. Soldering the pins is not mandatory, but recommended. I decided to not solder and just pressed the pins against 4 PCB contacts.
 (Extensive guide at: https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation)
 ## Flashing
 2. Connect FTDI adapter to PC by USB
