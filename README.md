@@ -1,7 +1,7 @@
 # General
-The goal of this project is to transform a ESP8266 based smart switch from cloud based firmware to MQTT supporting firmware, that will allow local control. Main reasons for this is to be able to integrate it into an existing open source Home Assistant platform . 
+The goal of this project is to  a ESP8266 based smart switch from cloud control to local control using MQTT. This ensures low latency and that data stays in the home network. 
 
-WARNING! Disassembling the smart switch will probably void the warranty and never keep it connected to live voltage without enclosure. 
+> WARNING! Disassembling the smart switch will probably void the warranty and never keep it connected to live voltage without enclosure. 
 
 # Requirements
 ## Hardware:
